@@ -53,6 +53,18 @@ async function excluir(id) {
       <button @click="excluir(categoria.id)">X</button>
     </li>
   </ul>
+
+  <div class="img">
+      <img src="/image/eduardo.jpg" alt="Eduardo" width="400px" height="400px">
+     </div>
 </template>
 
-<style></style>
+<style scoped>
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+  }
+  </style>
